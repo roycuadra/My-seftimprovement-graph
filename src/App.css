@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color:black; /* Updated background color */
+}
+
+canvas {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Added border-radius for a rounded appearance */
+  box-shadow: 0 0 20px 0 #00ccff; /* Added box shadow for depth */
+}
