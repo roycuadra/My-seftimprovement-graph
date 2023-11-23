@@ -4,12 +4,24 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color:black; /* Updated background color */
+  background-color: black;
 }
 
 canvas {
   background-color: white;
   border: 1px solid #ddd;
-  border-radius: 8px; /* Added border-radius for a rounded appearance */
-  box-shadow: 0 0 20px 0 #00ccff; /* Added box shadow for depth */
+  border-radius: 8px;
+  box-shadow: 0 0 20px 0 #00ccff;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  canvas {
+    width: 100%; /* Make canvas width 100% for smaller screens */
+    border-radius: 0; /* Remove border-radius for smaller screens if necessary */
+    box-shadow: none; /* Remove box shadow for smaller screens if necessary */
+  }
 }
