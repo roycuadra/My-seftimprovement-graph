@@ -21,7 +21,7 @@ canvas {
 
   canvas {
     width: 100%; /* Make canvas width 100% for smaller screens */
-    border-radius: 0; /* Remove border-radius for smaller screens if necessary */
-    box-shadow: none; /* Remove box shadow for smaller screens if necessary */
+    border-radius: 8px; /* Remove border-radius for smaller screens if necessary */
+    box-shadow: 0 0 20px 0 #OOccff; /* Remove box shadow for smaller screens if necessary */
   }
 }
